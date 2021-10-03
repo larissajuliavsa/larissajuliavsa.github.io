@@ -1,0 +1,373 @@
+/* Body */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: #333333;
+}
+
+/* Header */
+
+header {
+    display: inline-block;
+    position: relative;
+    width: 1270px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 25px;        
+} 
+
+header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333333;
+    padding-right: 56px;
+}
+
+/* Nome */
+
+#nome {
+   margin: 0;
+   position: absolute;
+   left: 658px;
+   display: flex;
+   width: 690px;
+}
+
+#nome h1 {
+    position: absolute;
+    width: 550px;
+    height: 12px;
+    left: 56px;
+    top: 144px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 68px;
+    line-height: 111px;
+}
+
+#nome p {
+    position: absolute;
+    width: 449px;
+    height: 12px;
+    left: 64px;
+    top: 240px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 49px;    
+}
+
+img {
+    position: absolute;
+    width: 471px;
+    height: 563px;
+    left: 0px;
+    top: 117px;
+    margin: 0;
+}
+
+/* Perfil */
+
+#perfil h4 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    width: 100vw;
+}
+
+#perfil p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: justify;
+    width: 100vw;
+    
+}
+
+#perfil #pt {
+    position: absolute; 
+    left: 88px;
+    top: 658px;
+}
+
+#perfil #pt h4 {
+    position: absolute;
+    width: 94px;
+}
+
+#perfil #pt p {
+    position: absolute;
+    width: 483px;
+    top: 96px;
+}
+
+#perfil #en {
+    position: absolute;
+    left: 780px;
+    top: 658px;
+}
+
+#perfil #en h4 {
+    position: absolute;
+    width: 104px;    
+}
+
+#perfil #en p {
+    position: absolute;
+    width: 483px;    
+    top: 96px;
+}
+
+/* Habilidades */
+
+#habilidade h4{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;  
+    width: 100vw;  
+}
+
+#habilidade p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;    
+    text-align: justify;
+    line-height: 33px;
+    width: 100vw;
+}
+
+#habilidade #pt {
+    position: absolute;  
+    left: 218px;
+    top: 1105px;
+}
+
+#habilidade #pt h4 {
+    position: absolute;
+    width: 304px;
+}
+
+#habilidade #pt p {
+    position: absolute;
+    width: 488px;
+    top: 88px;
+}
+
+#habilidade #en {
+    position: absolute;  
+    left: 218px;
+    top: 1309px;
+}
+
+#habilidade #en h4 {
+    position: absolute;
+    width: 304px;
+}
+
+#habilidade #en p {
+    position: absolute;
+    width: 490px;
+    top: 90px;
+}
+
+/* Software */
+
+#software {
+    position: absolute;
+    width: 303px;
+    height: 42px;
+    left: 922px;
+    top: 1218px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+#software #git {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 18px;
+    top: 90px;
+}
+
+#software #figma {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 76px;
+    left: 110px;
+}
+
+#software #html {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 18px;
+    top: 182px;
+}
+
+#software #css {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 178px;
+    left: 118px;
+}
+
+/* Blog */
+
+#blog a { 
+    color: #858E65;
+}
+
+#blog h4 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    width: 100vw;
+}
+
+#blog p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    width: 100vw;
+}
+
+#blog #pt {
+    position: absolute;
+    width: 900px;
+    height: 184px;
+    left: 224px;
+    top: 1745px;
+}
+
+#blog #pt h4 {
+    position: absolute;
+    width: 927px;
+}
+
+#blog #pt p {
+    position: absolute;
+    width: 927px;
+    height: 114px;
+    top: 90px;
+}
+
+#blog #en {
+    position: absolute;
+    width: 900px;
+    height: 184px;
+    left: 240px;
+    top: 1949px;
+}
+
+#blog #en h4 {
+    position: absolute;
+    width: 927px;
+}
+
+#blog #en p {
+    position: absolute;
+    width: 927px;
+    height: 114px;
+    top: 90px;
+}
+
+/* Contato */
+
+#contato {
+    position: absolute;
+    width: 500px;
+    height: 180px;
+    left: 432px;
+    top: 2300px;
+}
+
+#contato h4 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    
+}
+
+#contato #en {
+    padding-bottom: 150px;
+}
+
+#contato li {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    left: -10px;
+}
+
+#contato li a {
+    color: #858E65;
+}
+
+#contato ul li img {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+}
+
+#contato #linkedin {
+    top: 168px;
+    left: 172px;
+}
+
+#contato #github {
+    top: 201px;
+    left: 172px;
+}
+
+#contato #gmail {
+    top: 234px;
+    left: 92px;    
+}
+
